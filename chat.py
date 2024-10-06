@@ -44,7 +44,7 @@ chat_session = model.start_chat(
 
 print("Gemini: Hello, how can I help you?")
 print()
-# text_to_speech("Hello, How can I help you", API.eleven_labs_api)
+text_to_speech("Hello, How can I help you", API.eleven_labs_api)
 
 while True:
 
@@ -58,4 +58,4 @@ while True:
 
     print(f'Gemini: {model_response}')
     print()
-    # text_to_speech(model_response, API.eleven_labs_api)
+    text_to_speech(model_response, API.eleven_labs_api)
