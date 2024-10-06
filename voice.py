@@ -38,19 +38,3 @@ def text_to_speech(text, api_key, voice_id="EXAVITQu4vr4xnSDxMaL"):
 
     else:
         print(f"Error: {response.status_code}, {response.text}")
-
-
-# Kullanım
-# api_key = API.eleven_labs_api
-# text = "Hello, this is a sample speech generated using ElevenLabs API."
-# text_to_speech(text, api_key)
-
-# pygame.mixer.init()
-# pygame.mixer.music.load("output.mp3")
-# pygame.mixer.music.play()
-#
-# # Keep the program running long enough for the audio to play
-# while pygame.mixer.music.get_busy():
-#     time.sleep(1)
-#
-# pygame.mixer.quit()
