@@ -1,0 +1,5 @@
+google-generativeai==0.8.2
+google-ai-generativelanguage==0.6.10
+google-auth==2.35.0
+requests==2.32.3
+pygame==2.6.1
